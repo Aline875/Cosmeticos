@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cosméticos</title>
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="/Public/Logotipo-menor.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--header.css-->
+    <header class="cabecalho">
+        <div class="container">
+            <input type="checkbox" id="menu" class="botao-container">
+            <label for="menu" class="container-rotulo">
+        <span class="menu-hamburguer imagem-container "></span>
+    </label>
+    <ul class="lista-menu">
+       <li class="lista-menu-titulo">Categorias</li>
+       <li class="lista-menu-item">
+        <a href="#" class="lista-menu-link">Masculino</a>
+    </li>
+    <li class="lista-menu-item">
+        <a href="#" class="lista-menu-link">Feminino</a>
+    </li>
+       <li class="lista-menu-item">
+        <a href="#" class="lista-menu-link">Perfumes</a>
+    </li>
+       <li class="lista-menu-item">
+        <a href="#" class="lista-menu-link">Cuidados com a pele</a>
+    </li>
+       <li class="lista-menu-item">
+        <a href="#" class="lista-menu-link">Maquigem</a>
+    </li>
+    <li class="lista-menu-item">
+        <a href="#" class="lista-menu-link">Esmaltes</a>
+    </li>
+    </ul>
+        <img src="/Public/Logotipo-menor-menor.png" alt="Logo da AluraBooks"> 
+    </div>
+    <h1 class="container-titulo"><b class="container-titulo-bold"></h1>
+    <ul class="opcoes">
+    <input type="checkbox" id="opcoes-menu" class="botao-menu-opcoes">
+    <label for="opcoes-menu" class="opcoes-rotulo">
+        <li class="opcoes-item">Categorias</li>
+    </label>
+
+    <ul class="lista-menu">
+        <li class="lista-menu-item">
+         <a href="#" class="lista-menu-link">Skin-care</a>
+     </li>
+        <li class="lista-menu-item">
+         <a href="#" class="lista-menu-link">Copo e banho</a>
+     </li>
+        <li class="lista-menu-item">
+         <a href="#" class="lista-menu-link">Blog</a>
+     </li>
+     <li class="lista-menu-item">
+         <a href="#" class="lista-menu-link">Revenda</a>
+     </li>
+     </ul>
+     <li class="opcoes-item"><a href="#" class="opcoes-link"></a>Favoritos</li>
+     <li class="opcoes-item"><a href="#" class="opcoes-link"></a>Minha estatante</li>
+    </ul>
+ <a href="#" class="opcoes-link"></a> 
+   <div class="container">
+        <a href="#"><img src="/Public/icons8-gostar-32.png" alt="Meus favoritos" class="imagem-container container-coracao"></a>
+        <a href="# " class="container-link"><img src="/Public/icons8-vender-estoque-32.png" alt="Carrinho de compras" class="imagem-container">
+            <p class="container-texto">Minha Sacola</p>
+        </a>
+        <a href="#" class="container-link"><img src="/Public/icons8-conta-de-teste-32.png" alt="Meu Perfil" class="imagem-container">
+            <p class="container-texto">Meu Perfil</p>
+        </a>
+    </div>
+    </header>
+    <!--header.css-->
+    <main>
+        <!--banner.css-->
+        <section class="banner">
+            <h2 class="banner-titulo">Já sabe por onde começar?</h2>
+            <p class="banner-texto">Encontre em nossa estante o que você precisa para o seu desenvolvimento!</p>
+            <input type="search" class="banner-pesquisa" placeholder="Qual será a sua proxima leitura?">
+        </section>
+        <!--banner.css-->
+        <!--carrossel.css-->
+        <section class="carrossel">
+            <h2 class="carrossel-titulo">Últimos lançamentos</h2>
+            <!-- Slider main container -->
+ <div class="carrossel-container">
+  <div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-pagination"></div>
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide"><img src="/Public/O BOTICÁRIO — Pict Estúdio (1).jpg" alt="livro Liderança do AluraBooks"></div>
+      <div class="swiper-slide"><img src="/Public/O Boticário lança o novo Malbec Vert.jpg" alt="livro JavaScript do AluraBooks"></div>
+      <div class="swiper-slide"><img src="/Public/Egeo Blue Desodorante Colônia 90ml.jpg" alt="livro Guia Front-End do AluraBooks"></div>
+      <div class="swiper-slide"><img src="/Public/download (1).jpg" alt="Livro Portugol do AluraBooks"></div>
+      <div class="swiper-slide"><img src="/Public/Black Plum Body Lotion 400ml.jpg" alt="Livro Acessibilidade do AluraBooks"></div>
+      ...
+    </div>
+    <!-- If we need pagination -->
+    
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  
+    <!-- If we need scrollbar 
+    <div class="swiper-scrollbar"></div> -->
+  </div>
+  <!--1ª linha-->
+  <div class="card">
+    <!--1ª coluna-->
+    <div class="card-descricao">
+        <div class="descricao">
+            <h3 class="descricao-titulo">Talvez você também se interesse por...</h3>
+            <h2 class="descricao-titulo-livro"></h2>
+            <p class="descricao-texto">Construindo uma aplicação integrada com a plataforma Google.</p>
+        </div>
+        <!--2ª coluna-->
+        <img src="/Public/download (2).jpg"class="descricao-imagem">
+    </div>
+    <!--2ª linha-->
+    <div class="card-botoes">
+       <ul class="botoes">
+        <li class="botoes-item"><img src="/Public//Favoritos.svg" alt="Favoritar livro"></li>
+        <li class="botoes-item"><img src="/Public/Compras.svg" alt="Adicionar ao carrinho"></li>
+       </ul>
+       <!--2ª coluna-->
+       <a href="#" class="botoes-ancora">Saiba mais</a>
+    </div>
+  </div>
+</div>  
+        </section>
+        <section class="carrossel">
+            <h2 class="carrossel-titulo">Mais vendidos</h2>
+            <div class="carrossel-container">            <!-- Slider main container -->
+<div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-pagination"></div>
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide"><img src="/Public/ApacheKafka.svg" alt="livro ApacheKafka do AluraBooks"></div>
+      <div class="swiper-slide"><img src="/Public/Guia Front-end.svg" alt="livro Guia Front-End do AluraBooks"></div>
+      <div class="swiper-slide"><img src="/Public/Javascript.svg" alt="livro JavaScript do AluraBooks"></div>
+      <div class="swiper-slide"><img src="/Public/Acessibilidade.svg" alt="Livro Acessibilidade do AluraBooks"></div>
+      <div class="swiper-slide"><img src="/Public/Portugol.svg" alt="Livro Portugol do AluraBooks"></div>
+      ...
+    </div>
+    <!-- If we need pagination -->
+    
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  
+    <!-- If we need scrollbar 
+    <div class="swiper-scrollbar"></div> -->
+  </div>
+
+  <!--1ª linha-->
+  <div class="card">
+    <!--1ª coluna-->
+    <img src="/Public/Estrelinhas.svg">
+    <div class="card-descricao">
+        <div class="descricao">
+            <h3 class="descricao-titulo">Lançamento</h3>
+            <h2 class="descricao-titulo-livro">Egeo e.joy</h2>
+            <p class="descricao-texto">Novo lançamento Egeo e.joy traz uma fragancia...</p>
+        </div>
+        <!--2ª coluna-->
+        <img src="/Public/Egeo E_Joy Desodorante Colônia 90ml.jpg" class="descricao-imagem">
+    </div>
+    <!--2ª linha-->
+    <div class="card-botoes">
+       <ul class="botoes">
+        <li class="botoes-item"><img src="/Public/icons8-gostar-32.png" alt="Favoritar livro"></li>
+        <li class="botoes-item"><img src="/Public/icons8-vender-estoque-32.png" alt="Adicionar ao carrinho"></li>
+       </ul>
+       <!--2ª coluna-->
+       <a href="#" class="botoes-ancora">Saiba mais</a>
+    </div>
+</div>
+</div>
+</section>
+<!--carrossel.css-->
+<section class="topicos">
+    <h2 class="topicos-titulo">TÓPICOS VISITAODS RECENTEMENTE</h2>
+    <ul class="topicos-lista">
+        <li class="topicos-item">
+            <a href="#" class="topicos-link">Android</a>
+        </li>
+        <li class="topicos-item">
+            <a href="#" class="topicos-link">Marketing Digital</a>
+        </li>
+        <li class="topicos-item">
+            <a href="#" class="topicos-link">Agile</a>
+        </li>
+        <li class="topicos-item">
+            <a href="#" class="topicos-link">Startups</a>
+        </li>
+        <li class="topicos-item">
+            <a href="#" class="topicos-link">HTML & CSS</a>
+        </li>
+        <li class="topicos-item">
+            <a href="#" class="topicos-link">Python</a>
+        </li>
+        <li class="topicos-item">
+            <a href="#" class="topicos-link">OO</a>
+        </li>
+        <li class="topicos-item">
+            <a href="#" class="topicos-link">Java</a>
+        </li>
+    </ul>
+</section>
+<Section class="contato">
+    <div class="contato-container">
+    <h2 class="contato-titulo">Fique por dentro adas novidades!</h2>
+    <p class="contato-descricao">Atualizações de e-books, novos livros, promoções e outros.</p>
+    </div>
+    <input type="email" class="contato-email" placeholder="Cadastre seu email?">
+</Section>
+    </main>
+
+    <hr/>
+
+    <footer class="rodape">
+        <h2 class="rodape-titulo">Grupo Boticário</h2>
+        <ul class="lista-rodape">
+            <li class="rodape-titulo-lista">Educação</li>
+            <li class="rodape-item">
+                <img src="/Public" alt="Logo da Casa do código">
+                <a class="rodape-link" href="#">Casa do código</a>
+            </li>
+            <li class="rodape-item">
+                <img src="/Public" alt="Logo da Caelum">
+                <a class="rodape-link" href="#">Caelum</a>
+            </li>
+        </ul> 
+
+        <ul class="lista-rodape"> 
+            <li class="rodape-titulo-lista">Educação Online</li>
+            <li class="rodape-item">
+                <img src="/Public" alt="Logo da Alura">
+                <a href="#" class="rodape-link">Alura</a>
+            </li>
+            <li class="rodape-item">
+                <img src="/Public" alt="Logo da Alura para empresas">
+                <a href="#" class="rodape-link">Alura Para Empresas</a>
+            </li>
+            <li class="rodape-item">
+                <img src="/Public" alt="Logo da Alura LATAM">
+                <a href="#" class="rodape-link">Alura LATAM</a>
+            </li>
+            <li class="rodape-item">
+                <img src="/Public" alt="Logo da Alura Start">
+                <a href="#" class="rodape-link">Alura Start</a>
+            </li>
+            <li class="rodape-item">
+                <img src="/Public" alt="Logo da MusicDot">
+                <a href="#" class="rodape-link">MusicDot</a>
+            </li>
+            <li class="rodape-item">
+                <img src="/Public" alt="Logo da Alura Linguas">
+                <a href="#" class="rodape-link">Alura Linguas</a>
+            </li>
+            <li class="rodape-item">
+                <img src="/Public" alt="Logo da PM3">
+                <a href="#" class="rodape-link">PM3</a>
+            </li>
+        </ul> 
+      
+        <ul class="lista-rodape"> 
+            <li class="rodape-titulo-lista">Comunidade</li>
+            <li class="rodape-item">
+                <img src="/Public" alt="Logo da Hispsters ponto tech">
+                <a href="#" class="rodape-link">Hispsters ponto tech</a>
+            </li>
+            <li class="rodape-item">
+                <img src="/Public" alt="Logo da Scuba Dev">
+                <a href="#" class="rodape-link">Scuba Dev</a>
+            </li>
+            <li class="rodape-item">
+                <img src="/Public" alt="Logo da Layers ponto Tech">
+                <a href="#" class="rodape-link">Layers ponto Tech</a>
+            </li>
+            <li class="rodape-item">
+                <img src="/Public" alt="Logo da Like a Boss">
+                <a href="#" class="rodape-link">Like a Boss</a>
+            </li>
+            <li class="rodape-item">
+                <img src="/Public" alt="Logo da Carreiras sem fronteiras">
+                <a href="#" class="rodape-link">Carreiras sem fronteiras</a>
+            </li>
+            <li class="rodape-item">
+                <img src="/Public" alt="Logo da Hipsters ponto jobs">
+                <a href="#" class="rodape-link">Hipsters ponto jobs</a>
+            </li>
+            <li class="rodape-item">
+                <img src="/Public" alt="Logo da GUJ">
+                <a href="#" class="rodape-link">GUJ</a>
+            </li>
+        </ul>
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+        spaceBetween: 10,
+        slidesPerView: 3,
+        pagination:
+        {
+            el:'.swiper-pagination',
+            type:'bullets',
+        },
+      });
+      </script>
+</body>
+</html>
