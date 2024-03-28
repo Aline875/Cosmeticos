@@ -12,7 +12,8 @@
 
 .swiper-slide img
 {
-  width: 100%;
+  width: 130px;
+  height: 250px;
 }
 
 .swiper-button-prev,
@@ -86,6 +87,12 @@
   padding: 1em 2.2em;
   color: var(--branco);
   font-weight: 700;
+}
+
+.descricao-imagem
+{
+  width: 150px;
+  height: 250px;
 }
 
 @media screen and (min-width: 1024px)

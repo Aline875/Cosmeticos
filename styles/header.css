@@ -11,7 +11,7 @@ position: relative;
 {
     width: 24px;
     height: 24px;
-    background-image: url(/Public/Menu.svg);
+    background-image: url(/Public/icons8-cardápio-32.png);
     background-repeat: no-repeat;
     background-position: center;
     display: inline-block;
@@ -35,12 +35,12 @@ position: relative;
 
 .botao-container:checked ~ .container-rotulo > .menu-hamburguer
 {
-    background-image: url(../Public/Menu\ Aberto.svg);
+    background-image: url(../Public/icons8-cardápio-32\ \(1\).png);
 }
 
 .botao-container:checked ~ .container-rotulo
 {
-    background: var(--azul-degrade);
+    background: var(--rosa-degrade);
 }
 
 .lista-menu
@@ -64,13 +64,13 @@ position: relative;
 }
 .lista-menu-titulo
 {
-    color: var(--laranja);
+    color: var(--preto);
     font-weight: 700;
 }
 
 .lista-menu-link
 {
-    background: var(--azul-degrade);
+    background: var(--preto);
     -webkit-background-clip: text;  
     -webkit-text-fill-color: transparent;
     background-clip: text;  /*esse background-clip: text. prende a cor escolhida no texto*/
