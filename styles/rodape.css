@@ -37,8 +37,7 @@ hr
 
 .rodape-item
 {
-    display: flex;
-    align-items: center;
+    display: inline-flex;
     margin: 0.5em 0;
 }
 
@@ -47,7 +46,6 @@ hr
     text-decoration: none;
     color: var(--cinza);
     margin-left: 0.5em;
-
 }
 
 .rodape-titulo
@@ -61,7 +59,6 @@ hr
   color: var(--rosa-5);
   
 }
-
 
 }
 

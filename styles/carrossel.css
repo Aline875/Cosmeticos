@@ -111,18 +111,17 @@
     width: 60%;
   }
 
-  .swiper-button-next, .swiper-button-prev
-  {
-    display: block;
-    top: 60%;
-  }
-
   .card
   {
     width: 40%;
     margin: 0 auto 2em auto;
   }
 
+  .swiper-slide img
+  {
+    height: 500px;
+    width: 200px;
+  }
 }
 
 @media screen and (min-width:1728px)

@@ -17,6 +17,16 @@ position: relative;
     display: inline-block;
 }
 
+.logo
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-2
+{
+    display: none;
+}
 .container
 {
     display: flex;
@@ -95,7 +105,6 @@ position: relative;
 
 @media screen and (min-width: 1024px) /*colocamos min quando começamos pelo design mobile e max quando começamos pelo desktop*/
  {
-
     .container-titulo,
     .container-titulo-bold {
         font-family: var(--fonte-secundaria);
@@ -170,6 +179,22 @@ position: relative;
     text-decoration: none;
 
    }
+
+   .container
+   {
+    display: none;
+   }
+   
+   .logo
+   {
+    display: none;
+   }
+
+   .logo-2
+   {
+    display: flex;
+    justify-content: space-between;
+   }
  }
  @media screen and (min-width:1728px)
  {
@@ -194,5 +219,10 @@ position: relative;
       .opcoes
       {
         margin-right: auto;
+      }
+      
+      .logo
+      {
+        display: none;
       }
  }
