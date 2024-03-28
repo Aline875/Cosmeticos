@@ -63,7 +63,7 @@
 {
     .banner-pesquisa
     {
-        width: 45%;
+        display: none;
     }
 
     .banner-pesquisa::placeholder

@@ -27,6 +27,11 @@ position: relative;
 {
     display: none;
 }
+
+.logo-3
+{
+    display: none;
+}
 .container
 {
     display: flex;
@@ -102,7 +107,10 @@ position: relative;
 {
     display: none;
 }
-
+.banner-pesquisa-1
+{
+    display: none;
+}
 @media screen and (min-width: 1024px) /*colocamos min quando começamos pelo design mobile e max quando começamos pelo desktop*/
  {
     .container-titulo,
@@ -195,6 +203,15 @@ position: relative;
     display: flex;
     justify-content: space-between;
    }
+   .logo-3
+   {
+    display: none;
+   }
+
+   .banner-pesquisa-1
+   {
+    display: none;
+   }
  }
  @media screen and (min-width:1728px)
  {
@@ -225,4 +242,34 @@ position: relative;
       {
         display: none;
       }
+      .logo-2
+      {
+        display: none;
+      }
+      .logo-3
+      {
+        display: flex;
+        justify-content: space-between;
+      }
+        .banner-pesquisa-1
+        {
+            background-color: transparent;
+            border: 1px solid;
+            color: var(--preto);
+            border-radius: 24px;
+            padding: 1em;
+            width: 50%;
+            display: flex;
+        }
+
+        .banner-pesquisa-1::placeholder
+        {
+            font-family: var(--font-familly-primaria);
+            font-weight: 400;
+            font-size: 14px;
+            text-align: center;
+            color: var(--preto);
+            background: url(/Public/icons8-pesquisar-16.png) no-repeat;
+            background-position: 1px ;
+        }
  }
