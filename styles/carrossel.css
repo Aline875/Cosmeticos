@@ -1,7 +1,7 @@
 
 .carrossel-titulo
 {
-  color: var(--laranja);
+  color: var(--rosa-5);
   background-color: var(--branco);
   text-align: center;
   text-transform: uppercase;
@@ -64,12 +64,12 @@
 .descricao-titulo
 {
   font-weight: 700;
-  color: var(--laranja);
+  color: var(--rosa-5);
 }
 
 .descricao-titulo-livro
 {
-  color: var(--azul);
+  color: var(--cinza-claro-2);
   font-size: 18px;
   font-weight: 700;
   margin: 0.5em 0;
@@ -82,7 +82,7 @@
 
 .botoes-ancora
 {
-  background: var(--laranja);
+  background: var(--rosa-5);
   text-decoration: none;
   padding: 1em 2.2em;
   color: var(--branco);

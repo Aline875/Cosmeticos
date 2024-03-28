@@ -13,18 +13,18 @@
     --branco:#ffffff;
     --laranja:#eb9b00 ;
     --laranja-escuro:#c98508;
-    --azul:#002f52;
     --preto:#000000;
     --cinza:#474646;
     --cinza-claro:#858585;
+    --azul-claro:#c7e9f1;
     --font-familly-primaria:"Poppins", sans-serif;
     --font-familly-secundaria:"Josefin Sans";
     --rosa-1: #ffb7c9;
     --rosa-2: #ffc9d6;
     --rosa-3: #ffdbe4;
     --rosa-4: #ffedf1;
+    --rosa-5: #eb9ac0;
     --rosa-degrade:linear-gradient(97.54deg, #ffb7c9 35.49%, #ffedf1 165.37%);
-
 }
 
 body

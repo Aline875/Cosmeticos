@@ -151,7 +151,7 @@ position: relative;
 
    .botao-menu-opcoes:checked ~ .opcoes-rotulo > .opcoes-item
    {
-       background:var(--azul-degrade);
+       background:var(--rosa-degrade);
        color: var(--branco);
    }
    
@@ -161,7 +161,7 @@ position: relative;
    }
 
    .lista-menu-item:hover {
-    background: var(--azul-degrade);
+    background: var(--rosa-degrade);
    }
 
    .lista-menu-item:hover > .lista-menu-link 

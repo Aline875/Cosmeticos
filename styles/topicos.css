@@ -27,12 +27,13 @@
 
 .topicos-link
 {
-    color: var(--branco);
+    color: var(--preto);
     padding: 1em;
-    background-color: var(--laranja);
+    background-color: var(--rosa-5);
     text-decoration: none;
     font-size: 14px;
     font-weight: 700;
+    border-radius: 5px;
 }
 
 @media screen and (min-width: 1024px)
@@ -49,12 +50,12 @@
 
 .topicos-link:hover
 {
-  background-color:var(--laranja-escuro);
+  background-color:var(--rosa-4);
 }
 
 .topicos-link:hover:active
 {
-  background-color: var(--azul-degrade);
+  background-color: var(--rosa-degrade);
 }
 
 }
