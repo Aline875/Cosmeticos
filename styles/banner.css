@@ -35,7 +35,7 @@
     font-size: 14px;
     text-align: center;
     color: var(--branco);
-    background: url(/Public/icons8-pesquisar-16.png) no-repeat;
+    background: url(/Public/icons8-pesquisar-32.png) no-repeat;
     background-position: 1px ;
 }
 
@@ -48,12 +48,13 @@
 
     .banner-pesquisa
     {
-        width: 50%;
+        width: 70%;
     }
 
    .banner-pesquisa::placeholder
    {
-    background-position: 6em;
+    background-position: 7%;
+    font-size: 20px;
    }
 
 }
