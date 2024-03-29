@@ -6,6 +6,7 @@
 @import url(/styles/rodape.css);
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap');
 
 
 :root
@@ -19,6 +20,7 @@
     --azul-claro:#c7e9f1;
     --font-familly-primaria:"Poppins", sans-serif;
     --font-familly-secundaria:"Josefin Sans";
+    --font-familly-terciaria:"Montserrat", sans-serif;
     --rosa-1: #ffb7c9;
     --rosa-2: #ffc9d6;
     --rosa-3: #ffdbe4;

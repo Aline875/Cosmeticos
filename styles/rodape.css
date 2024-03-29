@@ -52,12 +52,23 @@ hr
 {
     font-size: 24px;
     font-weight: 300;
+    margin: 1em;
 }
 
 .rodape-link:hover
 {
   color: var(--rosa-5);
   
+}
+.lista-rodape
+{
+  border-left: 1px solid var(--cinza-claro);
+  padding-left: 1em;
+}
+
+.rodape
+{
+  padding: 3em 0;
 }
 
 }
