@@ -6,6 +6,18 @@
     padding: 2.5em 2em;
 }
 
+.video
+{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1000;
+  }
+
 .banner-titulo
 {
     font-size: 18px;
@@ -35,7 +47,7 @@
     font-size: 14px;
     text-align: center;
     color: var(--branco);
-    background: url(/Public/icons8-pesquisar-32.png) no-repeat;
+    background: url(/Public/icons8-pesquisar-16.png) no-repeat;
     background-position: 1px ;
 }
 
@@ -55,6 +67,7 @@
    {
     background-position: 7%;
     font-size: 20px;
+    background: url(/Public/icons8-pesquisar-32.png) no-repeat;
    }
 
 }
