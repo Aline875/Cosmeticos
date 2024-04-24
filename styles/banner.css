@@ -6,11 +6,6 @@
     padding: 2.5em 2em;
 }
 
-.banner-1 img
-{
- 
-}
-
 .banner-titulo
 {
     font-size: 18px;
@@ -81,4 +76,12 @@
     {
         padding: 7em 0;
     }
+
+    .banner-1 {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: auto;
+    }
+
 }
