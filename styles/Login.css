@@ -89,6 +89,12 @@
       background-color: var(--rosa-3);
       color: var(--preto);
   }
+
+  button a
+  {
+    text-decoration: none;
+    color: inherit;
+  }
   
   .form-direita .form-login-rede {
     color: var(--cinza-claro);

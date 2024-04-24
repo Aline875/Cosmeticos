@@ -39,6 +39,11 @@
     background-position: 1px ;
 }
 
+.banner-p
+{
+    margin-top: 2em;
+}
+
 @media screen and (min-width: 1024px) 
 {
     .banner-titulo

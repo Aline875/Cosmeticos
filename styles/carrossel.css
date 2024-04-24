@@ -126,6 +126,11 @@ display: none;
   object-fit: cover;
 }
 
+.segundo-carousel .swiper-slide img {
+  max-width: 100%; /* Define a largura máxima como 100% do contêiner */
+  height: auto; /* Altura automática para manter a proporção da imagem */
+}
+
 @media screen and (min-width: 1024px)
 {
   .carrossel-titulo
