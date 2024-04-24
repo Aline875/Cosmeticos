@@ -9,8 +9,6 @@
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="/Public/Logotipo-menor.png" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="node_modules/slick-carousel/slick/slick.css"/>
-    <link rel="stylesheet" type="text/css" href="node_modules/slick-carousel/slick/slick-theme.css"/>
 </head>
 <body>
     <!--header.css-->
@@ -118,7 +116,10 @@
             <p class="banner-texto">Encontre em nosso site o que precisa par uso pessal ou para dar de presenta para aquela pessoa especial!</p>
             <input type="search" class="banner-pesquisa" placeholder="O que você procura hoje?">
         </section>
+
+        <section class="banner-p">
             <h2>Novo banner</h2>
+<<<<<<< HEAD
             <div class="swiper segundo-carousel">
                 <!-- Additional required wrapper -->
                 <div class="swiper-pagination"></div>
@@ -128,6 +129,10 @@
                   <div class="swiper-slide slide-banner"><img src="/Public/O Boticário lança o novo Malbec Vert.jpg" alt="Malbec Vert"></div> 
                   <div class="swiper-slide slide-banner"><img src="/Public/Egeo Blue Desodorante Colônia 90ml.jpg" alt="Egeo Blue"></div> 
                 </div>
+=======
+            <img src="/Public/Group 1.svg" alt="Banner" class="banner-1">
+        </section>
+>>>>>>> parent of 9b45edd (atuliazação carrossel)
 
         <!--banner.css-->
         <!--carrossel.css-->
@@ -307,7 +312,6 @@
             </ul> 
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
     <script>
         const swiper = new Swiper('.swiper',{
         spaceBetween: 10,
@@ -318,16 +322,6 @@
             type:'bullets',
         }, 
       });
-
-      const segundoSwiper = new Swiper('.segundo-carousel', {
-        slidesPerView: 1, // Mostra apenas um slide por vez
-        spaceBetween: 0,
-        loop: true, // Loop infinito
-        autoplay: {
-            delay: 5000, // Tempo de transição entre os slides em milissegundos (5 segundos)
-            disableOnInteraction: false, // Mantém o autoplay ativado mesmo se o usuário interagir com o carrossel
-        },
-    });
       </script>
 </body>
 </html>
