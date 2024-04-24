@@ -37,7 +37,8 @@
 }
 
 .form-esquerda input[type="email"],
-.form-esquerda input[type="password"] {
+.form-esquerda input[type="password"],
+.form-esquerda input[type="text"]{
   border: 0.1em solid var(--preto);
   padding: 1em;
   margin: 0.6em 0;
@@ -95,6 +96,6 @@
   background: #d1231a;
 }
 
-.form-direita a.github {
-  background: var(--preto);
+.form-direita a.cadastro {
+  background: #eb9ac0;
 }
