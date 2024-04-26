@@ -111,8 +111,7 @@ position: relative;
 {
     display: none;
 }
-@media screen and (min-width: 1024px) /*colocamos min quando começamos pelo design mobile e max quando começamos pelo desktop*/
- {
+@media screen and (min-width: 1024px) {
     .container-titulo,
     .container-titulo-bold {
         font-family: var(--fonte-secundaria);
